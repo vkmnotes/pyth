@@ -1,0 +1,12 @@
+import numpy as np
+arr=np.array([10,20,30,40,50,60,70,80,90,100])
+print("Array:",arr)
+print("Sum:",arr.sum())
+print("Mean:",arr.mean())
+print("Max:",arr.max())
+print("Min:",arr.min())
+a=np.array([1,2,3,4])
+b=np.array([10,20,30,40])
+print("\nAddition:",a+b)
+print("Subtraction:",b-a)
+print("Multiplication:",a*b)
